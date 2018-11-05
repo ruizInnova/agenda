@@ -1,0 +1,28 @@
+{
+    "name": "Person",
+    "plural": "persons",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "lastName": {
+            "type": "string",
+            "required": true
+        },
+        "phone": {
+            "type": "string",
+            "default": "000000",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}
